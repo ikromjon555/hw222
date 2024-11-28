@@ -1,0 +1,79 @@
+
+
+#card{ 
+    display: flex; 
+    width: 35%; 
+    max-Width: '900px'; 
+    background-Color: whitesmoke; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 20px; 
+} 
+#button{ 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: red; 
+    color: whitesmoke; 
+    cursor: pointer; 
+} 
+#temp{ 
+    font-size: 72px; 
+    margin: 10px 0; 
+    margin-left: 169px; 
+    margin-top: 100px; 
+    color:aqua; 
+ 
+} 
+#cont{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    background-color: whitesmoke; 
+    font-family: Arial sans-serif; 
+} 
+#weather{ 
+    font-size: 24px; 
+    color: whitesmoke; 
+    margin-bottom: 20px; 
+    margin: 30px; 
+} 
+#hour{ 
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 20px; 
+    gap: 50px; 
+} 
+#forecast{ 
+    flex: 1; 
+    padding: 20px; 
+    border-left: 3px solid whitesmoke; 
+    text-align: center; 
+} 
+main{ 
+    text-align: center; 
+    padding: 20px; 
+} 
+#input{ 
+    padding: 10px; 
+    border: 1px solid whitesmoke; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+    margin-left: 80px; 
+} 
+#item{ 
+    background-color: whitesmoke; 
+    border-radius: 8px; 
+    padding: 10px; 
+    width: 60px; 
+    text-align: center; 
+} 
+#date{ 
+    margin-bottom: 10px; 
+    font-size: 20px; 
+} 
+#main{ 
+    font-size: 20px; 
+    justify-content: space-around; 
+}
